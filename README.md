@@ -134,8 +134,9 @@ class givenprog
                  Console.WriteLine("age" + pair.Key+" "+pair.Value+"students(s)");
              }
          }
-         static void main()
-         {
+    }
+    static void main()
+    {
              AddStudent(1,"john",19);
              AddStudent(2,"vijay",20);
              AddStudent(3,"arun",18);
@@ -156,10 +157,9 @@ class givenprog
              Console.WriteLine("By Age");
              byage();
              Console.WriteLine("by Letter");
-             let(l);
+             let('l');
              Console.WriteLine(" by age group ");
              group();
-         }
      }
 }
 
