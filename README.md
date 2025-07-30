@@ -1,16 +1,17 @@
-
 using System;
 using System.Collections.Generic;
+
 class Student
-{
-    public int id;
-    public string name;
-    public int age;
+  {
+      public int id;
+      public string name;
+      public int age;
     
-}
+  }
+  
 class givenprog
-{
-    
+  {
+  
      static List <Student> students = new List<Student>();
      static void AddStudent(int id,string name,int age)
      {
